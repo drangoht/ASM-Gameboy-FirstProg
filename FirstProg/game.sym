@@ -1,0 +1,9 @@
+; this file was created with wlalink by ville helin <ville.helin@iki.fi>.
+; wla symbolic information for "game.rom".
+
+[information]
+version 3
+wlasymbol true
+
+[labels]
+00:0150 start
