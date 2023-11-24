@@ -1,5 +1,5 @@
 ; this file was created with wlalink by ville helin <ville.helin@iki.fi>.
-; wla symbolic information for "game.gb".
+; wla symbolic information for "bpong.rom".
 
 [information]
 version 3
@@ -8,27 +8,27 @@ wlasymbol true
 [labels]
 00:0150 start
 00:0157 waitvbl
-00:0168 ldt
-00:0174 clmap
-00:0180 clspr
-00:0191 ldspr
-00:01d6 loop
-00:01d8 VBlank
-00:01f6 nod
-00:020b nou
-00:0239 nocxr
-00:0247 nocxl
-00:025d nocyr
-00:026b nocyl
-00:029d nopaddle
-00:02ac lowbeep
-00:02b8 hibeep
-00:02c4 setsnd
-00:0800 Tiles
+00:0169 ldt
+00:0175 clmap
+00:0181 clspr
+00:0192 ldspr
+00:01d7 loop
+00:01d9 VBlank
+00:01f7 nod
+00:020c nou
+00:023a nocxr
+00:0248 nocxl
+00:025e nocyr
+00:026c nocyl
+00:029e nopaddle
+00:02ad lowbeep
+00:02b9 hibeep
+00:02c5 setsnd
+00:0800 tiles
 
 [definitions]
 00000007 _sizeof_start
-00000011 _sizeof_waitvbl
+00000012 _sizeof_waitvbl
 0000000c _sizeof_ldt
 0000000c _sizeof_clmap
 00000011 _sizeof_clspr
@@ -44,4 +44,4 @@ wlasymbol true
 0000000f _sizeof_nopaddle
 0000000c _sizeof_lowbeep
 0000000c _sizeof_hibeep
-0000053c _sizeof_setsnd
+0000053b _sizeof_setsnd
